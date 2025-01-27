@@ -45,4 +45,4 @@ app.post('/create', async (req, res) => {
   console.log(title, content);
 });
 
-app.listen(80);
+app.listen(process.env.PORT);
