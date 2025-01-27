@@ -12,6 +12,8 @@ build/
 *.dockerfile
 docker-compose.yml
 .dockerignore
+# ds store
+.DS_Store
 
 # Terraform
 *.tfstate
