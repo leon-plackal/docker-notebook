@@ -1,0 +1,10 @@
+services:
+  npm:
+    build: ./
+    container_name: npm
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./:/app
+
+ # run with docker-compose run --rm npm init
