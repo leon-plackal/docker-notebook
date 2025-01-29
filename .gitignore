@@ -9,7 +9,6 @@ build/
 *.log
 
 # Docker
-*.dockerfile
 docker-compose.yml
 .dockerignore
 # ds store
@@ -36,3 +35,5 @@ obj/
 *.sln.docstates
 .vscode/
 .vs/
+
+*.env
